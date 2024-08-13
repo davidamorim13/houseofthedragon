@@ -32,7 +32,7 @@ botoesCarrossel.forEach((botao, indice) => {
         mostrarImagemDefundo(indice);
 
        // - passo 7 - esconder a informação do dragão anteriormente selecionado
-       esconderInformacoesAtivas();
+       esconderInformacoesAtiva();
 
        // - passo 8 - mostrar a informação do dragão referente ao botão clicado
          mostrarInformacoes(indice);
@@ -47,7 +47,7 @@ function mostrarInformacoes(indice) {
     informacoes[indice].classList.add("ativa");
 }
 
-function esconderInformacoesAtivas() {
+function esconderInformacoesAtiva() {
     const informacoesAtiva = document.querySelector(".informacoes.ativas");
     informacoesAtiva.classList.remove("ativa");
 }
