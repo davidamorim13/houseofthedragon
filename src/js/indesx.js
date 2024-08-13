@@ -48,7 +48,7 @@ function mostrarInformacoes(indice) {
 }
 
 function esconderInformacoesAtiva() {
-    const informacoesAtiva = document.querySelector(".informacoes.ativas");
+    const informacoesAtiva = document.querySelector(".informacoes.ativa");
     informacoesAtiva.classList.remove("ativa");
 }
 
